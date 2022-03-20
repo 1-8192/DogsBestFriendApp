@@ -9,7 +9,7 @@ const Home = props => {
     <View>
       <ImageBackground source={bgImage} style={styles.bgImage}>
         <Text style={styles.title}>Dog's Best Friend</Text>
-        <Text>
+        <Text style={styles.textBox}>
           The app that helps you support NYC shelter dogs even if you can't
           adopt.{" "}
         </Text>

@@ -6,4 +6,10 @@ module.exports = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center'
   },
+  title: {
+    color: 'white'
+  },
+  textBox: {
+    color: 'white'
+  }
 });
