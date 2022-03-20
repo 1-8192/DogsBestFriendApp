@@ -8,7 +8,7 @@ const Home = props => {
   return (
     <View>
       <ImageBackground source={bgImage} style={styles.bgImage}>
-        <Text>Dog's Best Friend</Text>
+        <Text style={styles.title}>Dog's Best Friend</Text>
         <Text>
           The app that helps you support NYC shelter dogs even if you can't
           adopt.{" "}
@@ -17,4 +17,5 @@ const Home = props => {
     </View>
   );
 };
+
 export default Home;
